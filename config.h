@@ -85,7 +85,7 @@ unsigned int tabspaces = 8;
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
 	/* 8 normal colors */
-	"#1C2330",
+	"#1C2330",	// 
 	"red3",
 	"green3",
 	"yellow3",
@@ -186,7 +186,7 @@ static Shortcut shortcuts[] = {
 	{ TERMMOD,              XK_Y,           selpaste,       {.i =  0} },
 	{ ShiftMask,            XK_Insert,      selpaste,       {.i =  0} },
 	{ TERMMOD,              XK_Num_Lock,    numlock,        {.i =  0} },
-	{ TERMMOD,              XK_T,      	newterm,        {.i =  0} }
+	{ TERMMOD,              XK_T,      			newterm,        {.i =  0} },
 };
 
 /*

@@ -65,6 +65,9 @@ static int bellvolume = 0;
 /* default TERM value */
 char *termname = "st-256color";
 
+/* bg opacity */
+unsigned int alpha = 0xcc;
+
 /*
  * spaces per tab
  *
